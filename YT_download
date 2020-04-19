@@ -21,6 +21,8 @@ while(i<=lim-1):
 
 print("\n")
 type=int(input("Enter Choice Number: "))
-path="/sdcard/Downloads/"
+
+path=input("Enter Download Path:")
+
 a_v[type].download(filepath=path)
 print("Dowload SuccessFul")
